@@ -1,20 +1,22 @@
-# Translations template for ckanext-pages.
+# Turkish translations for ckanext-pages.
 # Copyright (C) 2021 ORGANIZATION
-# This file is distributed under the same license as the ckanext-pages project.
+# This file is distributed under the same license as the ckanext-pages
+# project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-pages 0.2.3\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-01-04 21:36+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-01-04 21:37+0300\n"
+"Last-Translator: Umut Erogul <EMAIL@ADDRESS>\n"
+"Language-Team: tr <LL@li.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 2.8.0\n"
 
 #: ckanext/pages/actions.py:153 ckanext/pages/actions.py:176
@@ -25,66 +27,66 @@ msgstr ""
 #: ckanext/pages/actions.py:251 ckanext/pages/actions.py:260
 #: ckanext/pages/actions.py:268
 msgid "Not authorized to see this page"
-msgstr ""
+msgstr "Bu sayfayı görüntüleme izni yoktur"
 
 #: ckanext/pages/auth.py:66
 #, python-format
 msgid "User %s not authorized to read this page"
-msgstr ""
+msgstr "%s kullanıcısının bu sayfayı görme izni yoktur"
 
 #: ckanext/pages/controller.py:18 ckanext/pages/controller.py:72
 msgid "Organization not found"
-msgstr ""
+msgstr "Kurum bulunamadı"
 
 #: ckanext/pages/controller.py:20
 #, python-format
 msgid "Unauthorized to read organization %s"
-msgstr ""
+msgstr "%s kurumunu okuma izni yoktur"
 
 #: ckanext/pages/controller.py:68 ckanext/pages/controller.py:177
 #: ckanext/pages/controller.py:373
 msgid "Page Not Found"
-msgstr ""
+msgstr "Sayfa bulunamadı"
 
 #: ckanext/pages/controller.py:70 ckanext/pages/controller.py:179
 #: ckanext/pages/controller.py:375
 msgid "Unauthorized to delete page"
-msgstr ""
+msgstr "Sayfa silme izni yoktur"
 
 #: ckanext/pages/controller.py:136 ckanext/pages/controller.py:181
 #: ckanext/pages/controller.py:377
 msgid "Group not found"
-msgstr ""
+msgstr "Kategori bulunamadı"
 
 #: ckanext/pages/controller.py:138
 #, python-format
 msgid "Unauthorized to read group %s"
-msgstr ""
+msgstr "%s kaategorisini okuma izni yoktur"
 
 #: ckanext/pages/controller.py:296
 msgid "ERROR: View not found {view_id}"
-msgstr ""
+msgstr "Hata: Sayfa bulunamadı {view_id}"
 
 #: ckanext/pages/controller.py:304
 msgid "Your browser does not support iframes."
-msgstr ""
+msgstr "Tarayıcınız iframe'leri desteklememektedir."
 
 #: ckanext/pages/controller.py:418
 msgid "Unauthorized to create or edit a page"
-msgstr ""
+msgstr "Sayfa düzenleme izni yoktur"
 
 #: ckanext/pages/controller.py:437
 msgid "Only Posting is availiable"
-msgstr ""
+msgstr "Sadece yeni ileti oluşturabilirsiniz"
 
 #: ckanext/pages/controller.py:442
 #, python-format
 msgid "Unauthorized to upload file %s"
-msgstr ""
+msgstr "%s dosyasını yükleme izni yoktur"
 
 #: ckanext/pages/validators.py:16
 msgid "Page name already exists in database"
-msgstr ""
+msgstr "Sayfa ismi zaten kullanımda"
 
 #: ckanext/pages/theme/templates_group/group/read_base.html:5
 #: ckanext/pages/theme/templates_main/ckanext_pages/edit_base.html:3
@@ -100,130 +102,130 @@ msgstr ""
 #: ckanext/pages/theme/templates_main/header.html:5
 #: ckanext/pages/theme/templates_organization/organization/read_base.html:5
 msgid "Pages"
-msgstr ""
+msgstr "Sayfalar"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog.html:34
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog_edit_base.html:9
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog_list.html:10
 #: ckanext/pages/theme/templates_main/header.html:10
 msgid "Blog"
-msgstr ""
+msgstr "Ağ güncesi"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base.html:15
 msgid "What are Pages?"
-msgstr ""
+msgstr "Sayfalar nedir?"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base.html:18
 msgid ""
-" <p>Pages are a simple way to add extra pages to your ckan instance. You can "
-"assign an order to them.</p> "
-msgstr ""
+" <p>Pages are a simple way to add extra pages to your ckan instance. You can"
+" assign an order to them.</p> "
+msgstr "<p>CKAN'a sayfa eklemek için kullanılan basit bir eklentidir.</p>"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:31
 msgid "Add Blog Article"
-msgstr ""
+msgstr "Makale ekle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:33
 msgid "Edit Blog Article"
-msgstr ""
+msgstr "Makale düzenle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:36
 msgid "eg. Blog Article Title"
-msgstr ""
+msgstr "örn: Makale başlığı"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:39
 #: ckanext/pages/theme/templates_main/ckanext_pages/group_page_list.html:5
 #: ckanext/pages/theme/templates_main/ckanext_pages/organization_page_list.html:5
 #: ckanext/pages/theme/templates_main/ckanext_pages/pages_list.html:5
 msgid "Add page"
-msgstr ""
+msgstr "Sayfa ekle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:41
 #: ckanext/pages/theme/templates_main/ckanext_pages/group_page.html:7
 #: ckanext/pages/theme/templates_main/ckanext_pages/organization_page.html:7
 msgid "Edit page"
-msgstr ""
+msgstr "Sayfa düzenle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:44
 msgid "eg. Page Title"
-msgstr ""
+msgstr "örn: Sayfa başlığı"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:50
 msgid "Title"
-msgstr ""
+msgstr "Başlık"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:54
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:56
 msgid "Publish Date"
-msgstr ""
+msgstr "Yayım tarihi"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:56
 msgid "2005-01-01"
-msgstr ""
+msgstr "2020-01-01"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:64
 msgid "Visibility"
-msgstr ""
+msgstr "Görünürlük"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:67
 msgid "Private"
-msgstr ""
+msgstr "Özel"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:67
 msgid "Public"
-msgstr ""
+msgstr "Herkese açık"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:76
 msgid "Header Order"
-msgstr ""
+msgstr "Sayfa sırası"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:79
 msgid "Not in Menu"
-msgstr ""
+msgstr "Menüde görünmesin"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:89
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:93
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:97
 msgid "Content"
-msgstr ""
+msgstr "İçerik"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:89
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:97
 msgid "Enter content here"
-msgstr ""
+msgstr "İçerik giriniz"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:95
 msgid "My content"
-msgstr ""
+msgstr "İçerik"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:102
 #: ckanext/pages/theme/templates_main/ckanext_pages/confirm_delete.html:15
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:103
 msgid "Add"
-msgstr ""
+msgstr "Ekle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:108
 msgid "Are you sure you want to delete this Page?"
-msgstr ""
+msgstr "Sayfayı silmek istediğinizden emin misiniz?"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:109
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/base_form.html:113
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog.html:8
 #: ckanext/pages/theme/templates_main/ckanext_pages/page.html:10
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog.html:24
 #: ckanext/pages/theme/templates_main/ckanext_pages/group_page.html:20
@@ -232,46 +234,45 @@ msgstr ""
 #: ckanext/pages/theme/templates_main/ckanext_pages/snippets/pages_list.html:51
 #: ckanext/pages/theme/templates_main/ckanext_pages/snippets/pages_list.html:71
 msgid "This page currently has no content"
-msgstr ""
+msgstr "Bu sayfada içerik bulunmamaktadır"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog.html:51
 msgid "More"
-msgstr ""
+msgstr "Daha"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog_edit.html:3
 msgid "Edit Article"
-msgstr ""
+msgstr "Makale düzenle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog_edit_base.html:3
 msgid "Blog Articles"
-msgstr ""
+msgstr "Makaleler"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog_edit_base.html:12
 msgid " <p>Add blog articles to CKAN here.</p> "
-msgstr ""
+msgstr " <p>Burdan CKAN'a makale ekleyiniz.</p> "
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/blog_list.html:5
 msgid "Add Article"
-msgstr ""
+msgstr "Makale ekle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/confirm_delete.html:3
 #: ckanext/pages/theme/templates_main/ckanext_pages/confirm_delete.html:16
 msgid "Confirm Delete"
-msgstr ""
+msgstr "Silme onayı"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/confirm_delete.html:11
 msgid "Are you sure you want to delete page - {name}?"
-msgstr ""
+msgstr "{name} sayfasını silmek istediğinizden emin misiniz?"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/pages_edit.html:3
 msgid "Edit Page"
-msgstr ""
+msgstr "Sayfayı düzenle"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/snippets/pages_list.html:80
 msgid "There are currently no blog articles here"
-msgstr ""
+msgstr "Makale bulunmamaktadır"
 
 #: ckanext/pages/theme/templates_main/ckanext_pages/snippets/pages_list.html:82
 msgid "There are currently no pages here"
-msgstr ""
-
+msgstr "Sayfa bulunmamaktadır"
